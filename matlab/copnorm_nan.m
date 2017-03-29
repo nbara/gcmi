@@ -1,5 +1,5 @@
 function cx = copnorm_nan(x)
-% COPNORM_NAN Copula normalisation with NaN propogation
+% COPNORM_NAN Copula normalisation with NaN propagation
 %   cx = copnorm(x) returns standard normal samples with the same empirical
 %   CDF value as the input. Operates along the first axis.
 %   Equivalent to cx = norminv(ctransform(x))
